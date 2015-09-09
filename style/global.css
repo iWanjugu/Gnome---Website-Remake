@@ -69,18 +69,25 @@ div#header .tagline a {
 /*Insert image 1 */
 
 div#pic1 {    
-    background-image:url("images/big_img.jpg");
-    height;100%;
+    height: 200px;
     width: 100%
 }
 
 /* format text in pic */
-div#pic1 .text1 {
+
+div .left1 {
+    padding-left: 12px;
+    padding-top: 20px;
+    padding-bottom: 90px;
+}
+
+
+div .text1 {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 2em;
  }
 
-div#pic1 .text1 span {
+div .text1 span {
     font-style: italic;
 }
 
