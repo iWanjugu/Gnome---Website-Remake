@@ -2,3 +2,67 @@
 
 @import url(https://fonts.googleapis.com/css?family=Poiret+One);
 /*font-family: 'Poiret One', cursive;*/
+
+
+/* BODY */
+body {
+    font-family: 'Open Sans';
+    background color: cornsilk;
+    margin= 0 auto;
+}
+
+.wrap {
+    height: auto;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Grey Header with GNOME logo */
+div#header {
+    height: 80px;
+    width: 100%;
+    background-color: #48494A;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+div#header .logo a {
+    height: auto;
+    width: 50%;
+    float: left;
+    padding-left: 12px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    
+    font-family: 'Poiret One', cursive;
+    font-style: oblique;
+    font-size: 2.5em;
+    color: #F4D03F;
+    text-align: left;
+    
+   
+margin-left: 15px;   
+}
+
+div#header .tagline a {
+    height: auto;
+    width: auto;
+    float: right;
+    padding-left: 12px;
+    padding-top: 50px;
+    padding-bottom: 15px;
+        
+    font-family: 'Open Sans';
+    font-size: .8em;
+    color: #FFF;
+    text-align: right;
+   
+   
+}
+
+
+/* End og header */
