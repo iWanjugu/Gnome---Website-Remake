@@ -10,11 +10,21 @@
 /* BODY */
 body {
     font-family: 'Open Sans';
-    background color: cornsilk;
     margin= 0 auto;
+    background-color: black;
+    box-sizing:border-box;
 }
 
-.wrap {
+/* Formatting the Mid section */
+div#narrow {
+    width: 600px;
+    margin-left: 450px; 
+    float: center;
+    background-color:cornsilk;
+    
+}
+
+div#narrow .wrap {
     height: auto;
     width: 100%;
 }
@@ -23,16 +33,19 @@ a{
     text-decoration: none;
 }
 
-/* Grey Header with GNOME logo */
+/* SECTION 1: Header*/
+/*Grey Header */
 div#header {
     height: 80px;
     width: 100%;
     background-color: #48494A;
-    margin-left: 5px;
+    /*margin-left: 5px;*/
     margin-right: 5px;
     margin-top: 5px;
     margin-bottom: 10px;
 }
+
+/* GNOME logo*/
 div#header .logo a {
     height: auto;
     width: 50%;
@@ -40,17 +53,13 @@ div#header .logo a {
     padding-left: 12px;
     padding-top: 20px;
     padding-bottom: 15px;
-    
     font-family: 'Poiret One', cursive;
-    font-style: oblique;
     font-size: 2.5em;
     color: #F4D03F;
-    text-align: left;
-    
-   
-margin-left: 15px;   
+    margin-left: 15px;   
 }
 
+/*Tagline on the right */
 div#header .tagline a {
     height: auto;
     width: auto;
@@ -64,46 +73,211 @@ div#header .tagline a {
     color: #FFF;
     text-align: right;   
 }
-/* End of header */
+/* END OF HEADER */
 
-/*Insert image 1 */
 
-div#pic1 {    
-    height: 200px;
-    width: 100%
+/* SECTION 2: Background Image and Text */
+
+/* Background Image */
+div#sec2 { 
+    position: absolute;
+    top: 90px;
+    height: 266px;
+    width: 100%;
 }
 
-/* format text in pic */
+/* Text */
 
-div .left1 {
+div#left1 {
+    width: 40%;
+    height: 150px;
     padding-left: 12px;
     padding-top: 20px;
     padding-bottom: 90px;
 }
 
-
-div .text1 {
+div#left1 .text1 {
+    height: 60%;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 2em;
+    font-size: 1.4em;
  }
 
-div .text1 span {
+div#left1 .text1 span {
     font-style: italic;
 }
 
-h3#box {
-    border-top-color border-bottom-color:darkgray;
-    border-top-style border-bottom-style: solid;
+div#left1 h3.text2 {
+    float: left;
+    height: 17%;
+    width: 52%;
+       
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-bottom-style: solid ;
+    border-top-style: solid;
+    border-bottom-width: thin;
+    border-top-width: thin;
+    border-top-color: darkgray;
+    border-bottom-color: darkgray;
+    padding-left: 10px;
+    padding bottom: 6px;
+        
     font-family: 'Poiret One', cursive;
+    font-size: .5em;
     font-style: italic;
-
 }
 
-div#content img {
-    -webkit-user-select: none;
-    align-self: center;
-    width: 40%;
+/* Section Editing */
+
+div#sec3, div#sec4, div#sec5, div#sec6, div#sec8
+{
+    background-color: #fff;
+    height: 250px;
+    margin-top: 10px;
+    padding-left: 25px;
+    padding-top: 10px;
+}
+
+/* All Headings and Paragraphs */
+h3 {
+    font-family: 'Poiret One', cursive;
+    font-size: 1.2em;
+    color: dimgray;
+}
+
+p {
+    color: dimgray;
+    font-family: 'Open Sans';
+    font-size: .8em;
+    margin-right: 5px;
+    }
+
+ /* End */ 
+
+/* SECTION 3: Main */
+div#sec3 .btn {    
+    border-radius: 50px; 
+    -moz-border-radius: 31px; 
+    -webkit-border-radius: 31px; 
+    background-color: #48494A;
+    padding-right:30px;
+    padding-left:30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+div#sec3 a {
+    color: #fff;
+    font-family: 'Open Sans';
+    font-size: .9em;
+    background-color: dimgray;
+}
+
+
+/* SECTION 4: Icons */
+div#sec4 {
+    text-align: center;
+    width: auto;
+}
+
+.icon1, .icon2, .icon3 {
+    width:29%;
+    height: 90%;
+    float: left;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.icon1 {
+    margin-right: 30px;
+    margin left: 20px;
+ }    
+
+.icon2 {
+    margin-right: 25px;
+    margin left:0;
+}
+
+.icon3 {
+    width:27%;
+    float: right;
+    margin-right: 30px;
+} 
+
+
+/* SECTION 5: */
+div#sec5 .left {
     height: 85%;
-    margin-left: 30%;
-    margin-top: 0 auto;
+    float: left;
+    width: 46%;
+    }
+
+div#sec5 .right {
+    float: left;
+    height: 246px;
+    width: 269px;
+   }
+
+
+/* SECTION 6*/
+div#sec6 .left {
+    float: left;
+    width: 47%;
 }
+
+div#sec6 .right {
+    float: right;
+    width: 53%;
+    height; 100%;
+}
+
+div#sec6 .right p, div#sec6 .right h3{
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+/*SECTION 7*/
+div#sec7 {
+    background-color:#1FF707;
+    height: 120px;
+    margin-top: 10px;
+    padding-left: 25px;
+    padding-top: 10px;
+}
+
+div#sec7 p {
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+/*SECTION 8*/
+div#sec8 {
+   padding-right: 5px;
+}
+
+/*SECTION 9: Footer*/
+div#footer {
+    height: 80px;
+    width: 100%;
+    background-color: #48494A;
+    margin-top 5px;
+    margin-bottom: 5px;
+    text-align:center;
+}
+
+div#footer p {
+    color: #F4D03F;
+    padding-top: 15px;
+    margin-bottom: 0;
+}
+
+div#footer p a {
+    color: #F4D03F;
+    font-size: .8em;
+    margin-top: 0;
+    
+   
+}
+      
