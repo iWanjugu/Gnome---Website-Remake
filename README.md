@@ -1,6 +1,7 @@
-THESE ARE MY FRONT END PRACTICES AND EXERCISES
+FRONT END:
 
-These are the changes to README.md
+Challenge: Remake of the GNOME Website as shown in image file
+
 
 
 
